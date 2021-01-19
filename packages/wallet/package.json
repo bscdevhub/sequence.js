@@ -31,7 +31,7 @@
   },
   "peerDependencies": {},
   "devDependencies": {
-    "@0xsequence/wallet-contracts": "https://github.com/arcadeum/wallet-contracts.git#update-erc-1271-imp",
+    "@0xsequence/wallet-contracts": "https://github.com/arcadeum/wallet-contracts#nested-signatures",
     "ganache-core": "^2.12.1",
     "web3": "^1.2.8",
     "web3-typescript-typings": "^0.10.2"

@@ -6,6 +6,10 @@
   version "1.1.0"
   resolved "https://github.com/arcadeum/wallet-contracts.git#c241213e0e44284c9a9c6acd97e03595d2047b72"
 
+"@0xsequence/wallet-contracts@https://github.com/arcadeum/wallet-contracts#nested-signatures":
+  version "1.1.0"
+  resolved "https://github.com/arcadeum/wallet-contracts#0499c6f04a7cfc89e8c2e8a3e7fcbc2473b436d0"
+
 "@arcadeum/ethauth@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@arcadeum/ethauth/-/ethauth-0.3.0.tgz#49fba8d6a218559138a8396d8c3dc68c80ea5c07"
