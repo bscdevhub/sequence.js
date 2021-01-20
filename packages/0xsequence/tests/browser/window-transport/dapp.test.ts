@@ -29,7 +29,7 @@ export const tests = async () => {
   const chainId = await signer.getChainId()
 
   await test('getAddress', async () => {
-    assert.equal(address.toLowerCase(), '0xadd22dd134b666720f476783cf83d9644764216f', 'wallet address')
+    assert.equal(address.toLowerCase(), '0x510f8ed26b9112330dff91f338fc5ce7f5ed7bd3', 'wallet address')
   })
 
   await test('sending a json-rpc request', async () => {
@@ -71,7 +71,7 @@ export const tests = async () => {
     const sig = await signer.signMessage(message)
     assert.equal(
       sig,
-      '0x00010001edc8f67f222c6a7811e00133ac58d8a9b226844bf6b19d3891a771fa28d038f43ab370e2f1bea9693375236ba26b687c322f2fb9c277639e82cb48d6521358e01c02',
+      '0x000100012130a88ebff9803da4cc2c32218c2814e277a29b192677657ccea80022d8d74012c108a548a1ad3ab6c29050290e8a91e3abfe2bc79caca66d034237dacd4a1a1b02',
       'signature match'
     )
 
@@ -151,7 +151,7 @@ export const tests = async () => {
     const sig = await provider.send('eth_signTypedData', [address, typedData])
     assert.equal(
       sig,
-      '0x00010001c90f43f3bd08dbaafa02698fccb44cf7a51774f4d4ba22aa12b3ad59299fa9d6173ee8429cd4f338a016855427a9d868038c5c3efe0f9b7e096670f6e7be49071b02',
+      '0x000100015f245e87af8f0e3ae8f30ad0e8bc451b548023d72c2ca54a8507a9eda1b7e10737b6fd4d0d5662a4797f0e9587a32637a7b39909dbe62683c6cee93e9235e5891c02',
       'signature match typed-data'
     )
 

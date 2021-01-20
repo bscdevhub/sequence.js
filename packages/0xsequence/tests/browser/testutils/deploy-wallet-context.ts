@@ -61,8 +61,8 @@ export const deployWalletContext = async (...providers: JsonRpcProvider[]): Prom
 // across instances, but, we must ensure the contracts are deployed by the mock-wallet at least.
 export const testWalletContext: WalletContext = {
   factory: "0x34612d35C278c69589111C58FB9405e034070F8D",
-  guestModule: "0x1755Dbec6289C2645F82b6C31cDcEe39D22CB790",
-  mainModule: "0x6262c92306354fc7c0B7a7fC1BA9054f62d06b92",
-  mainModuleUpgradable: "0x3b6f9cAA2E9Ca4c6fBC9E762d8670073D4369793",
-  sequenceUtils: "0xDD38B65afeeEBD4f481DcE5b49178611A2762c0A"
+  guestModule: "0x1a4FEB2Efc0FC59423548846E8d292b3841921EE",
+  mainModule: "0x8D67A92cBa68A657aa1f62e0ec0BE8103724A1bc",
+  mainModuleUpgradable: "0xca89BeDA890eEED45e2756B53F7BaBec05A7760A",
+  sequenceUtils: "0xE6b398A203B82987190D587204a267712143B46d"
 }
