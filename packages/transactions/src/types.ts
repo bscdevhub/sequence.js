@@ -1,6 +1,6 @@
 import { BigNumberish, BytesLike } from 'ethers'
 import { TransactionRequest as EthersTransactionRequest, TransactionResponse } from '@ethersproject/providers'
-import { WalletConfig } from '@0xsequence/config'
+import { DecodedSignature, WalletConfig } from '@0xsequence/config'
 import { WalletContext } from '@0xsequence/network'
 
 export interface Transaction {
@@ -40,7 +40,7 @@ export type SignedTransactions = {
   chainId: BigNumberish,
   config: WalletConfig,
   context: WalletContext,
-  signature: string,
+  signature: string | DecodedSignature | Promise<string> | Promise<DecodedSignature>,
   transactions: Transaction[]
 }
 
